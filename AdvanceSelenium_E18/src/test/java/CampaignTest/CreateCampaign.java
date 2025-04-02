@@ -37,7 +37,7 @@ public class CreateCampaign extends BaseClass{
 	
 	//@Parameters("browser")
 	@Test(groups = {"SmokeTest"}, priority = 1)
-	public void addCampaignTest() throws InterruptedException, IOException {
+	public void createCampaignTest() throws InterruptedException, IOException {
 		
 		JavaUtility javaUtil = new JavaUtility();
 		int randomNum = javaUtil.getRandomNum(2000);
@@ -67,7 +67,7 @@ public class CreateCampaign extends BaseClass{
 	
 	//@Parameters("browser")
 	@Test(groups = {"RegressionTest"}, priority = 2, dependsOnMethods = "createCampaignTest")
-	public void addCampaignWithDateTest() throws InterruptedException, IOException
+	public void createCampaignWithCloseDateTest() throws InterruptedException, IOException
 	{
 		
 		JavaUtility javaUtil = new JavaUtility();
