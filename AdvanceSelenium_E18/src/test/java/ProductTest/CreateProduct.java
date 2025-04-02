@@ -44,7 +44,7 @@ public class CreateProduct extends BaseClass{
 	
 	//@Parameters("browser")
 	@Test(groups = {"Integration"})
-	public void createProductTest() throws EncryptedDocumentException, IOException, InterruptedException {
+	public void addProductTest() throws EncryptedDocumentException, IOException, InterruptedException {
 		
 		JavaUtility javaUtil = new JavaUtility();
 		int randomNum = javaUtil.getRandomNum(1000);
