@@ -11,9 +11,9 @@
   </groups>
     <classes>
       <class name="LoginTest.LoginTest"/>
-      <class name="CampaignTest.CreateCampaign"/>
-      <class name="ProductTest.CreateProduct"/>
-      <class name="ContactTest.CreateContact"/>
+      <class name="CampaignTest.CreateCampaignTest"/>
+      <class name="ProductTest.CreateProductTest"/>
+      <class name="ContactTest.CreateContactTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -4,13 +4,13 @@
   <test thread-count="2" parallel="tests" name="Test1">
     <classes>
       <class name="LoginTest.LoginTest"/>
-      <class name="CampaignTest.CreateCampaign"/>
+      <class name="CampaignTest.CreateCampaignTest"/>
     </classes>
   </test> <!-- Test -->
   <test thread-count="2" parallel="tests" name="Test2">
     <classes>
-      <class name="ProductTest.CreateProduct"/>
-      <class name="ContactTest.CreateContact"/>
+      <class name="ProductTest.CreateProductTest"/>
+      <class name="ContactTest.CreateContactTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
